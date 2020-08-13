@@ -1,6 +1,6 @@
 window.addEventListener('load', (e) => {
   const phpApp =
-    'https://projektowaniegraficzne.org/aukcje_logintegra/php/app.php';
+    '';
   const lang = document.querySelector('html').getAttribute('lang');
 
   if (navigator.language != 'pl' && navigator.language != 'pl-PL') {
